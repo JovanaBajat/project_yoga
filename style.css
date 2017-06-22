@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+	position: fixed;
+	height: 2.7em;
+	width: 100%;
+	z-index: 9999;
+}
+#nav, #intro, #social {
+	display: flex;
+	font-family: "Raleway";
+	font-size: 12px;
+	padding: 0 1em;
+}
+#nav {
+	justify-content: space-between;
+	width: 100%; 
+
+
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: 0 1em;
+}
+#social {
+	font-size: 16px;
+}
+
+
+#menu {
+	display: inline-flex;
+	background-color: #ffffff;
+	opacity: 1;
+	z-index: 5;
+
+}
+
+ul, li {
+	color: black;
+	list-style-type: none;
+	display: inline-flex;
+	padding: 1.3em;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Raleway";
+	cursor: pointer;
+
+}
+#essai {
+	width: 16em;
+	background-color: #fc74f7 ;
+	color: white;
+}
+#essai:hover {
+	background-color: #5b5f66;
+}
+.yogaimage {
+ 
+}
+#logoimg {
+	z-index: 10;
+}
+.yogaimg {
+	
+}
+.tekst {
+	position: absolute;
+	top: 350px;
+	color: white;
+	font-family: "Muli" ;
+	font-size: 27px;
+	line-height: 2;
+	padding-left: 1em;
+}
+.tekst * {
+	z-index: 0;
+}
+#decouvrir {
+	padding: 5em 15em;
+	color: #878a8e;
+	text-align: center;
+	line-height: 2;
+	font-family: "Muli";
+
+}
+
+h2 {
+	font-size: 30px;
+}
+.text {
+	font-size: 22px;
+}
+#decouvrir_button {
+	margin-top: 20px;
+	width: 7em;
+	height: 2.6em;
+	background-color: #d7a0ef;
+	color: white;
+	font-size: 25px;
+}
+#decouvrir_button:hover {
+	cursor: pointer;
+	background-color: #a832db;
+}
+
+
+.new_text {
+    position: absolute;
+	top: 1550px;
+	font-family: "Muli" ;
+	font-size: 27px;
+	line-height: 2;
+	padding-left: 1em;
+	color: white;
+}
+#third {
+	padding: 5em 15em;
+	background-color: #F9F9F9;
+	text-align: center;
+}
+h2, #offre {
+ 	font-size: 28px;
+ 	color: #878a8e;
+	text-align: center;
+	line-height: 2;
+	font-family: "Muli";
+	text-align: center;
+}
+#j_y_vais {
+	margin-top: 20px;
+	width: 7em;
+	height: 2.6em;
+	background-color: #d7a0ef;
+	color: white;
+	font-size: 25px;
+	align-content: center;
+	
+
+}
+#j_y_vais:hover {
+    cursor: pointer;
+	background-color: #a832db;
+}
+
+#nos_profs, #video {
+	height: 1.6em;
+	background-color: #8897bf;
+	color: white;
+	font-family: "Muli";
+	font-size: 20px;
+	font-weight: bold;
+
+}
+#nos_profs p, #video p {
+	padding-left: 3em;
+}
+#profs {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+}
+.prof {
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#textprof {
+	font-size: 28px;
+ 	color: #878a8e;
+	text-align: center;
+	line-height: 2;
+	font-family: "Muli";
+}
+#video1 {
+	padding: 5em 15em;
+	text-align: center;
+	
+}
