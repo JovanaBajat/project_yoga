@@ -5,8 +5,8 @@
 }
 body {
 	margin: 0 auto;
-
 }
+
 
 header {
 	display: flex;
@@ -14,7 +14,6 @@ header {
 	background-color: black;
 	color: white;
 	position: fixed;
-	height: 2.7em;
 	width: 100%;
 	z-index: 9999;
 }
@@ -27,6 +26,7 @@ header {
 #nav {
 	justify-content: space-between;
 	width: 100%; 
+	height: 3em;
 
 
 }
@@ -37,6 +37,7 @@ header a {
 	display: flex;
 	align-items: center;
 	padding: 0 1em;
+	font-size: 15px;
 }
 #social {
 	font-size: 16px;
@@ -66,32 +67,47 @@ ul, li {
 	width: 16em;
 	background-color: #fc74f7 ;
 	color: white;
+	border-radius: 20px;
 }
 #essai:hover {
 	background-color: #5b5f66;
 }
-.yogaimage {
- 
-}
+
 #logoimg {
 	z-index: 10;
 }
-.yogaimg {
-	
-}
+
 .tekst {
 	position: absolute;
-	top: 350px;
+	top: 250px;
 	color: white;
 	font-family: "Muli" ;
-	font-size: 27px;
+	font-size: 30px;
 	line-height: 2;
 	padding-left: 1em;
+}
+.tekst h1 {
+	font-size: 50px;
+}
+.tekst a {
+	margin-top: 1.5em;
+}
+.btn:link {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.btn:link:hover {
+	color: #fc74f7;
+	border: 1px solid #fc74f7;
 }
 .tekst * {
 	z-index: 0;
 }
-#decouvrir {
+.decouvrir {
 	padding: 5em 15em;
 	color: #878a8e;
 	text-align: center;
@@ -122,9 +138,9 @@ h2 {
 
 .new_text {
     position: absolute;
-	top: 1550px;
-	font-family: "Muli" ;
-	font-size: 27px;
+	top: 1450px;
+	font-family: 'Inconsolata' ;
+	font-size: 30px;
 	line-height: 2;
 	padding-left: 1em;
 	color: white;
